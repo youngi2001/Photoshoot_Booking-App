@@ -43,6 +43,7 @@ export default function Package(){
                 <View style={{height:400, marginBottom: 10}}>
                     <Image source={adultface} style={{ height:400, width:"100%"}}/>
                     <View style={styles.absolute}>
+                        <Text style={{color:"white", fontSize:20}}>ADULT PHOTOS</Text>
                         <OpenURLButton url={supportedURL}>10 Photos for GHC750</OpenURLButton>
                     </View>
 
@@ -51,6 +52,7 @@ export default function Package(){
                 <View style={{height:400, marginBottom: 10}}>
                     <Image source={babyphoto} style={{ height:400, width:"100%"}}/>
                     <View style={styles.absolute}>
+                        <Text style={{color:"white", fontSize:20}}>BABY PHOTOS</Text>
                         <OpenURLButton url={supportedURL}>10 Photos for GHC750</OpenURLButton>
                     </View>
 
@@ -58,6 +60,7 @@ export default function Package(){
                 <View style={{height:400, marginBottom: 10}}>
                     <Image source={family} style={{ height:400, width:"100%"}}/>
                     <View style={styles.absolute}>
+                    <Text style={{color:"white", fontSize:20}}>FAMILY PHOTOS</Text>
                         <OpenURLButton url={supportedURL}>10 Photos for GHC900</OpenURLButton>
                     </View>
 
@@ -65,6 +68,7 @@ export default function Package(){
                 <View style={{height:400, marginBottom: 10}}>
                     <Image source={wedding} style={{ height:400, width:"100%"}}/>
                     <View style={styles.absolute}>
+                    <Text style={{color:"white", fontSize:20}}>WEDDING PHOTOS</Text>
                         <OpenURLButton url={supportedURL}>10 Photos for GHC650</OpenURLButton>
                     </View>
 
@@ -73,6 +77,7 @@ export default function Package(){
                     <Image source={birthday} style={{height:400, width:"100%"}}/>
 
                     <View style={styles.absolute}>
+                    <Text style={{color:"white", fontSize:20}}>BIRTHDAY PHOTOS</Text>
                         <OpenURLButton url={supportedURL}>10 Photos for GHC550</OpenURLButton>
                     </View>
 
