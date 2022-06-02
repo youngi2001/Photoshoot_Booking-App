@@ -17,7 +17,7 @@ export default function Info({navigation}){
         <View style={{backgroundColor:"#16181c", width:"100%", alignContent:"center", justifyContent:"center" }}>
 
         <View style={{marginTop:"5%", width:"100%", flexDirection:"row", marginBottom: 3, justifyContent:"space-around"}}> 
-            <TouchableOpacity style={styles.categories}>
+            <TouchableOpacity style={styles.categories} onPress={()=>{navigation.navigate("Contact")}}> 
               <Text style={styles.categoriesText}>Contact</Text>
             </TouchableOpacity>
 
@@ -25,7 +25,7 @@ export default function Info({navigation}){
               <Text style={styles.categoriesText}>Packages</Text>
             </TouchableOpacity>
 
-            <TouchableOpacity style={styles.categories}>
+            <TouchableOpacity style={styles.categories} onPress={()=>{navigation.navigate("Signup")}}>
               <Text style={styles.categoriesText}>Sign In</Text>
             </TouchableOpacity>
         </View>
