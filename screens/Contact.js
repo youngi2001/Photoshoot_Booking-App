@@ -11,6 +11,7 @@ import call from 'react-native-phone-call';
 
 
 export default function Contact(){
+    
     const triggerCall = () => {
         const args = {
             number: "+123456789",
@@ -20,8 +21,6 @@ export default function Contact(){
           call(args).catch(console.error);
 
     };
-
-     
         
 
     return(
@@ -59,7 +58,7 @@ export default function Contact(){
                 </Text>
             </View>
             <View style={{marginLeft:"2%"}}>
-                <Text style={{color: "white" ,fontSize:20 , marginLeft:10}}>booking@gmail.com</Text>
+                <Text style={{color: "white" ,fontSize:17 }}>photographybookings20@gmail.com</Text>
 
             </View>
 
